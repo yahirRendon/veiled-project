@@ -1,10 +1,8 @@
 <h1 align="center">Binary Message</h1>
 
 <p align="center">
-This project is part of my Veiled art project with the idea being able to embed a message within what could be a minimalistic and modern art piece. The unique aspect of this project is that the message is on full display, but it would take some time and effort for someone to translate. This leaves the level of boldness or ambiguity entirely up to subject. Feel free to reach out via <a href="https://github.com/yahirRendon/Creative_Coding/tree/main/Processing/Games">Instagram</a> should you wish to have a piece created for yourself or someone else.
+This project is part of my Veiled art project with the idea being able to embed a message within what could be a minimalistic and modern art piece. The unique aspect of this project is that the message is on full display, but it would take some time and effort for someone to translate. This leaves the level of boldness or ambiguity entirely up to subject. Feel free to reach out via <a href="https://www.instagram.com/_yahir360/">Instagram</a> should you wish to have a piece created for yourself or someone else.
 </p>
-
-<!-- <h3 align="center"><a href="https://github.com/yahirRendon/Creative_Coding/tree/main/Processing/Games">Game Projects<a/></h3> -->
 
 <!-- <h3 align="center"><a href="https://github.com/yahirRendon/Creative_Coding/tree/main/Processing/Games">Game Projects<a/></h3> -->
 
