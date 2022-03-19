@@ -30,10 +30,22 @@ Creating a function that can take any length of binary values that represents th
 </p>
 
 <p align="center">
+  <img alt="Trominotris" width="300" align="center" src="https://github.com/yahirRendon/veiled-project/blob/main/projects/binary_message_public/output/binary_message_fp_grid_git.gif" alt="sq grid"/>
+</p>
+
+<p align="center">
 The factor pair function works great for certain array lengths but for some you can get some rather tall rectangles due to a limited pair of factors. The second function I wrote tries to create an output that is closest to a square and will attempt to center any remaining values on the final row. This was done by finding the square root of the given array length and adding an additional row to cover any remainders. The example below handles the same values as the example above, but you will see the remainders being handled to favor a squarer output. 
+</p>
+
+<p align="center">
+  <img alt="Trominotris" width="300" align="center" src="https://github.com/yahirRendon/veiled-project/blob/main/projects/binary_message_public/output/binary_message_sq_grid_git.gif" alt="fp grid"/>
 </p>
 
 <h3 align="center">Challenge 2: Secondary Message<a/></h3>
 <p align="center">
 In my desire to preserve space and add increase visual complexity I need to find a way to embed the secondary message using the binary data available to me from the primary message. The first message created a grid, and the secondary message should pseudo randomly select the appropriate bit values so they can be highlighted in some visual manner while also preserving bit value and order. A custom function was created that loops through the secondary message and seeks to match bit values in the primary message by jumping in calculated spans while also handling the times bit values do not initially match. The function has error handling and can be reactivated to find a visually appealing display. 
+</p>
+
+<p align="center">
+  <img alt="Trominotris" width="300" align="center" src="https://github.com/yahirRendon/veiled-project/blob/main/projects/binary_message_public/output/binary_message_rand_git.gif" alt="fp grid"/>
 </p>
