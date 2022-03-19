@@ -1,8 +1,10 @@
 <h1 align="center">Binary Message</h1>
 
 <p align="center">
-This project is part of my Veiled art project with the idea being able to embed a message within what could be a minimalistic and modern art piece. The unique aspect of this project is that the message is on full display, but it would take some time and effort for someone to translate. This leaves the level of boldness or ambiguity entirely up to subject. 
+This project is part of my Veiled art project with the idea being able to embed a message within what could be a minimalistic and modern art piece. The unique aspect of this project is that the message is on full display, but it would take some time and effort for someone to translate. This leaves the level of boldness or ambiguity entirely up to subject. Feel free to reach out via <a href="https://github.com/yahirRendon/Creative_Coding/tree/main/Processing/Games">Instagram</a> should you wish to have a piece created for yourself or someone else.
 </p>
+
+<!-- <h3 align="center"><a href="https://github.com/yahirRendon/Creative_Coding/tree/main/Processing/Games">Game Projects<a/></h3> -->
 
 <!-- <h3 align="center"><a href="https://github.com/yahirRendon/Creative_Coding/tree/main/Processing/Games">Game Projects<a/></h3> -->
 
@@ -21,13 +23,14 @@ The provided code is a simplified version of the project that has most core elem
   <img alt="Sweep Game" width="300" align="center" src="https://github.com/yahirRendon/veiled-project/blob/main/projects/binary_message_public/output/binary_msg_binary.png" alt="binary"/>
   <img alt="Game of Life"width="300" align="center" src="https://github.com/yahirRendon/veiled-project/blob/main/projects/binary_message_public/output/binary_msg_text.png" alt="text"/>
 </p>
-  
+
 <h3 align="center">Full Project Outputs<a/></h3>
+  
+<h3 align="center">Challenge 1: Dimensions<a/></h3>
 <p align="center">
 Creating a function that can take any length of binary values that represents the messages and generates a grid that is visually appealing first required to define what I thought was visually appealing. The first thought was to always return a perfect square or rectangle which would have no remainders. To do this I wrote a function that finds factor pairs for a given array size and returns the dimensions that has the smallest difference. For example, a list of length 30 has the factor pairs of (1, 30), (2, 15), (3, 10), and (5, 6). The difference between each factor pair would be 29, 13, 7, and 1 respectively. So, the factor pair algorithm would select the values 5 and 6 since they have the smallest difference between them and return those dimensions favoring vertical orientations. Below is an example:
 </p>
- 
-<h3 align="center">Challenge 1: Dimensions<a/></h3>
+
 <p align="center">
 The factor pair function works great for certain array lengths but for some you can get some rather tall rectangles due to a limited pair of factors. The second function I wrote tries to create an output that is closest to a square and will attempt to center any remaining values on the final row. This was done by finding the square root of the given array length and adding an additional row to cover any remainders. The example below handles the same values as the example above, but you will see the remainders being handled to favor a squarer output. 
 </p>
