@@ -23,6 +23,10 @@ The provided code is a simplified version of the project that has most core elem
 </p>
 
 <h3 align="center">Full Project Outputs<a/></h3>
+<p align="center">
+  <img alt="Trominotris" width="500" align="center" src="https://github.com/yahirRendon/veiled-project/blob/main/projects/binary_message_public/output/binary_messge_light_git.gif" alt="visual"/>
+  <img alt="Sweep Game" width="500" align="center" src="https://github.com/yahirRendon/veiled-project/blob/main/projects/binary_message_public/output/binary_message_dark_git.gif" alt="binary"/>
+</p>
   
 <h3 align="center">Challenge 1: Dimensions<a/></h3>
 <p align="center">
